@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site - Orgânicos</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1>Mundo Orgânico</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse  justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#promocao">Promoções</a>
+                        </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./basket-2648251_1280.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./casserole-dish-2776735_1280.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./tofu-597228_1920.jpg" alt="">
+                </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+        </div>
+    </div>
+
+    <div class="container" data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="produtos">
+            <h2 class="mt-5">Produtos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <article class="card">
+                            <header class="card-header">
+                                Tomate
+                            </header>
+                            <img src="https://cdn.pixabay.com/photo/2016/08/23/09/22/tomatoes-1613881_1280.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Tomate salada</h4>
+                                <p class="card-text">
+                                    R$25,00/kg
+                                </p>
+                                <a href="#" class="btn btn-success">Botão link</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/10/2024</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <article class="card">
+                            <header class="card-header">
+                                Cenoura
+                            </header>
+                            <img src="https://cdn.pixabay.com/photo/2019/04/01/12/56/carrots-4095322_960_720.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Cenoura</h4>
+                                <p class="card-text">
+                                    R$25,00/kg
+                                </p>
+                                <a href="#" class="btn btn-success">Botão link</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/10/2024</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <article class="card">
+                            <header class="card-header">
+                                Beringela
+                            </header>
+                            <img src="https://cdn.pixabay.com/photo/2021/01/09/13/34/eggplant-5902351_1280.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Beringela</h4>
+                                <p class="card-text">
+                                    R$25,00/kg
+                                </p>
+                                <a href="#" class="btn btn-success">Botão link</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/10/2024</time>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promocao">
+            <h2 class="mt-5">Promoções - Frutas e Legumes da época</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <article class="card">
+                            <header class="card-header">
+                                Mamão
+                            </header>
+                            <img src="https://cdn.pixabay.com/photo/2013/11/26/20/20/papayas-218892_1280.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Mamão papaya</h4>
+                                <p class="card-text">
+                                    R$15,00
+                                </p>
+                                <a href="#" class="btn btn-success">Botão link</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/10/2024</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <article class="card">
+                            <header class="card-header">
+                                Limão Taiti
+                            </header>
+                            <img src="https://cdn.pixabay.com/photo/2019/10/23/05/34/portrait-4570443_1280.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Limão Taiti</h4>
+                                <p class="card-text">
+                                    R$15,00
+                                </p>
+                                <a href="#" class="btn btn-success">Botão link</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/10/2024</time>
+                            </footer>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-2">
+                        <article class="card">
+                            <header class="card-header">
+                                Couve-manteiga
+                            </header>
+                            <img src="https://cdn.pixabay.com/photo/2017/10/02/08/39/plants-2808184_1280.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Couve-manteiga</h4>
+                                <p class="card-text">
+                                    R$15,00
+                                </p>
+                                <a href="#" class="btn btn-success">Botão link</a>
+                            </div>
+                            <footer class="card-footer">
+                                Postado em <time>25/10/2024</time>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contato" class="pt-5 pb-5">
+            <div class="row">
+                <h2 class="section-title text-right">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Telefone (opicional)</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold border border-success">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
